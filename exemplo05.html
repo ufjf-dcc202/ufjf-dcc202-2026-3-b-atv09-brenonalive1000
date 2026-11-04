@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Exemplo 05</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+     header{
+        background-color: aquamarine;
+     }
+     footer {
+        background-color: pink;
+     }
+
+     section{
+        background-color: antiquewhite;
+     }
+     nav{
+        background-color: lightgreen;
+     }
+     aside{
+        background-color:cornsilk;
+     }
+     
+
+    ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    li {
+            border: 1px solid blue;
+            background-color: lightblue;
+            padding: 0.1em;
+        }
+
+    .holy-grail {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+    }
+    .holy-grail > header {
+        grid-column: 1 / 4;
+    }
+    .holy-grail > footer {
+        grid-column: 1 / 4;
+    }
+    .holy-grail > section {
+        overflow: auto;
+    }
+
+    </style>
+</head>
+
+<body>
+    <main>     
+        <article class="holy-grail">
+            <header>
+                <h1>Exemplo 05: Holy Grail</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                    <li>Quarto</li>
+                    <li>Quinto</li>
+                </ul>
+            </nav>
+            <section>
+                <h2>Texto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem exercitationem nostrum pariatur harum, magni voluptate expedita praesentium rerum dolorum mollitia illum. Maiores, aliquam non aspernatur dolores tempora nisi quod quia!</p>
+                <p>Expedita est magni, ad explicabo consectetur alias sequi dolorem, ea nesciunt officia quos sed assumenda voluptatum, nam quis dicta ab. Omnis quo magnam quos eaque magni saepe ducimus. Sapiente, obcaecati.</p>
+                <p>Error omnis, beatae totam in necessitatibus suscipit delectus illum cumque, laborum, dolor voluptate quam cupiditate labore nobis tempore esse similique obcaecati ex voluptatem a eum sapiente numquam voluptatum? Eum, minima!</p>
+           </section>
+            <aside>
+                <ul>
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                    <li>Quarto</li>
+                    <li>Quinto</li>
+                </ul>
+            </aside>
+           <footer>
+                &COPY; 2026 - DCC202 - UFJF
+           </footer>
+        </article>
+    </main>
+</body>
+</html>
